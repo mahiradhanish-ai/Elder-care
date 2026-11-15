@@ -1,0 +1,37 @@
+{
+  "name": "eldercare-connect-backend",
+  "version": "1.0.0",
+  "description": "Backend API for ElderCare Connect Healthcare & Medication Management Platform",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "eldercare",
+    "healthcare",
+    "medication-management",
+    "express",
+    "mongodb"
+  ],
+  "author": "ElderCare Connect Team",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.2.0",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.0",
+    "morgan": "^1.10.0",
+    "node-cron": "^4.6.0",
+    "nodemailer": "^10.5.0"
+  },
+  "overrides": {
+    "nodemon": {
+      "minimatch": "^11.0.1"
+    }
+  }
+}
